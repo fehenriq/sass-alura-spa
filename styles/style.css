@@ -1,0 +1,46 @@
+html, body {
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+  padding: 1rem;
+}
+nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  color: #495371;
+}
+nav ul li a:hover {
+  border-bottom: 2px solid #495371;
+}
+
+.banner {
+  background: url("../../imagens/banner.jpeg") no-repeat;
+  min-height: 350px;
+  block-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 90%;
+}
+.banner .inner-banner {
+  padding: 3rem;
+  background-color: #F1E0AC;
+  opacity: 0.9rem;
+  border-radius: 1rem;
+}
+.banner .inner-banner h1 {
+  font-size: 3rem;
+  color: #495371;
+  font-size: 3rem;
+}
+.banner .inner-banner h2 {
+  font-size: 1.5rem;
+  color: #74959A;
+  font-size: 1.5rem;
+}/*# sourceMappingURL=style.css.map */
