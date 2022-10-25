@@ -6,22 +6,26 @@ body {
 nav {
   text-align: center;
 }
+
 nav ul li {
   display: inline-block;
   padding: 1rem;
 }
+
 nav ul li a {
   text-transform: uppercase;
   text-decoration: none;
   font-weight: bold;
   color: #495371;
 }
+
 nav ul li a:hover {
   border-bottom: 2px solid #495371;
 }
 
 .banner {
   background: url("../../imagens/banner.jpeg") no-repeat;
+  background-position: center;
   min-height: 350px;
   block-size: cover;
   display: flex;
@@ -29,6 +33,7 @@ nav ul li a:hover {
   align-items: center;
   opacity: 90%;
 }
+
 .banner .inner-banner {
   padding: 3rem;
   background-color: #F1E0AC;
@@ -36,11 +41,13 @@ nav ul li a:hover {
   border-radius: 1rem;
   text-align: center;
 }
+
 .banner .inner-banner h1 {
   font-size: 3rem;
   color: #495371;
   font-size: 3rem;
 }
+
 .banner .inner-banner h2 {
   font-size: 1.5rem;
   color: #74959A;
@@ -50,6 +57,7 @@ nav ul li a:hover {
 #servicos {
   margin: 80px;
 }
+
 #servicos h4 {
   font-size: 1.2rem;
   color: #74959A;
@@ -58,20 +66,24 @@ nav ul li a:hover {
   text-align: center;
   margin: 1rem;
 }
+
 #servicos h3 {
   text-align: center;
   font-size: 2.5rem;
   margin-bottom: 80px;
   font-weight: 300;
 }
+
 #servicos .cards {
   display: flex;
   justify-content: space-evenly;
 }
+
 #servicos .cards .card {
   width: 360px;
   text-align: center;
 }
+
 #servicos .cards .card h5 {
   font-size: 2rem;
   font-weight: 300;
@@ -79,16 +91,19 @@ nav ul li a:hover {
   margin-bottom: 20px;
   color: #495371;
 }
+
 #servicos .cards .card p {
   font-size: 1rem;
   font-weight: 300;
   color: #495371;
   line-height: 1.25rem;
 }
+
 #servicos .cards .card .img-container {
   padding-bottom: 2px;
   border-bottom: 5px solid #74959A;
 }
+
 #servicos .cards .card .img-container img {
   max-width: 100%;
 }
@@ -98,13 +113,16 @@ nav ul li a:hover {
   padding: 3rem;
   text-align: center;
 }
+
 #cupom .texto {
   color: #495371;
 }
+
 #cupom .texto h2 {
   margin: 2rem;
   font-size: 2rem;
 }
+
 #cupom .input {
   margin: 0 auto;
   width: 575px;
@@ -113,6 +131,7 @@ nav ul li a:hover {
   background: white;
   box-shadow: 0px 0px 1px 1px #495371;
 }
+
 #cupom .input input {
   border-radius: 20px;
   border: none;
@@ -122,10 +141,13 @@ nav ul li a:hover {
   text-align: center;
   font-size: 1.5rem;
 }
-#cupom .input:hover, #cupom .input:focus-within {
+
+#cupom .input:hover,
+#cupom .input:focus-within {
   box-shadow: 1px 1px 8px 1px #495371;
   outline: none;
 }
+
 #cupom button {
   text-transform: uppercase;
   margin-top: 1rem;
@@ -142,6 +164,7 @@ nav ul li a:hover {
   cursor: pointer;
   border-radius: 40px;
 }
+
 #cupom button:hover {
   color: #495371;
   background-color: #74959A;
@@ -153,14 +176,17 @@ nav ul li a:hover {
   text-align: center;
   margin: 5px;
 }
+
 #curiosidades h3 {
   color: #495371;
   font-size: 2rem;
 }
+
 #curiosidades h4 {
   color: #74959A;
   font-size: 1.5rem;
 }
+
 #curiosidades p {
   margin-top: 5px;
   color: #495371;
@@ -175,6 +201,9 @@ footer {
   padding: 1.2rem;
   background: linear-gradient(to left, #495371, #74959A, #495371);
 }
+
 footer i {
   color: red;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
