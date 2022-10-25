@@ -8,16 +8,20 @@
   justify-content: center;
   align-items: center;
   opacity: 90%;
+
   .inner-banner {
     padding: 3rem;
     background-color: $cor-terciaria;
     opacity: 0.9rem;
     border-radius: 1rem;
+    text-align: center;
+
     h1 {
       font-size: 3rem;
       color: $cor-primaria;
       font-size: $tamanho-do-texto;
     }
+
     h2 {
       font-size: 1.5rem;
       color: $cor-secundaria;
